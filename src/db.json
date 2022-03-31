@@ -39,4 +39,12 @@
         "side":"placeholder"
         }
     }
+],
+"character":[
+    {"id":1,
+    "name":"Gabriel",
+    "image":{
+        "front":"placeholder",
+        "side":"placeholder"
+    }}
 ]}

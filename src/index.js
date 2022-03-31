@@ -17,8 +17,9 @@ render(
       <Route path="shop" element={<Shop/>}/>
       <Route path="closet" element={<Closet/>}/>
       <Route path="*" element={
-        <div>
-          <img src="placeholder" alt="hilarious meme"/>
+        <div className="error">
+          <img src={require("./images/dont-look.jpeg")} alt="hilarious meme"/>
+          <p>Woah! You shouldnt be here!</p>
         </div>}/>
     </Route>
   </Routes>

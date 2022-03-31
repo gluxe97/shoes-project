@@ -5,7 +5,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 6vh;
+  max-height: 6vh;
   width: 98vw;
   display: flex;
   flex-direction: row;
@@ -13,13 +13,52 @@
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  border: 2em;
+  border: 1em;
   border-radius: 1em;
-  margin-top: 1%;
+  margin:auto;
 }
 
 .header-link {
   margin: auto;
-  color:aliceblue
+  color:aliceblue;
+}
+.container{
+  display:grid;
+  grid-template-columns: 10vw 80vw 10vw;
+  grid-template-rows: 80vh 20vh;
+  grid-template-areas:
+  "lside main rside" 
+  "lside collection rside";
+}
+.main{
+  height:75vh;
+  width:70vw;
+  display:flex;
+  margin:auto;
+  border-width:10px;
+  border-color: black;
+  border-style: solid;
+  grid-area: main;
+}
+.view-button{
+  height:10vh;
+  min-width:5vw;
+  margin:auto;
+}
+.main img{
+  width:100%;
+  height:100%;
+  object-fit: contain;
+}
+.shoe-collection{
+  grid-area: collection;
+  border-width:3px;
+  border-color: black;
+  border-style: solid;
+  margin-bottom: 3px;
+}
+.error{
+  margin:auto;
+  padding-top: 10%;
 }
 
