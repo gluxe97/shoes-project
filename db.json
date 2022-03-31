@@ -1,0 +1,41 @@
+{"shoes":[ 
+  {
+  "id":1,
+  "name":"Air Force low",
+  "image":{
+      "front": "placeholder",
+      "side": "placeholder"}
+  },
+  {
+  "id":2,
+  "name":"placeholder",
+  "image":{
+      "front":"placeholder",
+      "side":"placeholder"
+      }
+  },
+  {
+  "id":3,
+  "name":"placeholder",
+  "image":{
+      "front":"placeholder",
+      "side":"placeholder"
+      }
+  },
+  {
+  "id":4,
+  "name":"placeholder",
+  "image":{
+      "front":"placeholder",
+      "side":"placeholder"
+      }
+  },
+  {
+  "id":5,
+  "name":"placeholder",
+  "image":{
+      "front":"placeholder",
+      "side":"placeholder"
+      }
+  }
+]}

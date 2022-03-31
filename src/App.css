@@ -22,6 +22,7 @@
   margin: auto;
   color:aliceblue;
 }
+/* closet styling */
 .container{
   display:grid;
   grid-template-columns: 10vw 80vw 10vw;
@@ -50,6 +51,36 @@
   height:100%;
   object-fit: contain;
 }
+/* shop styling*/
+.shop-container{
+  display:grid;
+  grid-template-columns: 5vw 90vw 5vw;
+  grid-template-rows: 80vh 20vh;
+  grid-template-areas:
+  "lside main rside" 
+  "lside collection rside";
+}
+.shop-main{
+  height:77vh;
+  width:80vw;
+  display:grid;
+  margin:auto;
+  border-width:5px;
+  border-color: black;
+  border-style: solid;
+  grid-area: main;
+  overflow: scroll;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4fr;
+}
+.shoe-card{
+grid-area: auto;
+height: 48%;
+width: 48%;
+margin: auto;
+box-shadow: 3px 3px 10px -3px black;
+}
+/* universal components*/
 .shoe-collection{
   grid-area: collection;
   border-width:3px;
