@@ -5,16 +5,14 @@
 
 .App-header {
   background-color: #282c34;
-  max-height: 6vh;
-  width: 98vw;
+  max-height: 5vh;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
   color: white;
-  border: 1em;
-  border-radius: 1em;
   margin:auto;
 }
 
@@ -22,66 +20,149 @@
   margin: auto;
   color:aliceblue;
 }
+/*Trivia Styling*/
+.trivia-container{
+height:100vh;
+width:100vw;
+display:grid;
+grid-template-columns:100%;
+grid-template-rows: 60% 25% 15%;
+grid-template-areas:
+"q"
+"fm"
+"exp";
+}
+.trivia-form{
+  min-width: 100px;
+min-height: 100px;
+height: 80%;
+width: 90%;
+grid-area: fm;
+margin:auto;
+}
+.main-submit{
+  margin-right:5%;
+}
+.question-input{
+width:10%;
+}
+.answer-input{
+  width:15%;
+}
+.trivia-container h3{
+  grid-area: exp;
+  margin:auto;
+  display:flex;
+}
+.trivia-questions{
+  grid-area: q;
+  min-width: 150px;
+  min-height: 150px;
+  height: 90%;
+  width: 56%;
+  margin:auto;
+}
+.trivia-card{
+min-width: 100px;
+min-height: 100px;
+height: 75%;
+width: 90%;
+padding:1%;
+border-color: black;
+border-radius: 1em;
+margin:auto;
+box-shadow: 3px 3px 10px -3px black;
+display:flex;
+flex-direction: column;
+}
+.card-title{
+display:flex;
+position: relative;
+width:25%;
+left:5%;
+font-size: small;
+}
+.question{
+  display:flex;
+  font-size: larger;
+  margin:auto;
+}
+.answers{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:auto;
+  margin-bottom: 0%;
+  width: 100%;
+}
+.answers button{
+  width:18%;
+  height: 95%;
+  margin: auto;
+  padding:2%;
+}
 /* closet styling */
 .container{
   display:grid;
-  grid-template-columns: 10vw 80vw 10vw;
-  grid-template-rows: 80vh 20vh;
+  grid-template-columns: 25vw 75vw ;
+  grid-template-rows: 90vh;
   grid-template-areas:
-  "lside main rside" 
-  "lside collection rside";
+  "collection main";
 }
 .main{
-  height:75vh;
-  width:70vw;
+  height:90vh;
+  width:50vw;
   display:flex;
+  flex-direction: column;
   margin:auto;
+  margin-top: 1%;
   border-width:10px;
   border-color: black;
   border-style: solid;
   grid-area: main;
 }
 .view-button{
-  height:10vh;
-  min-width:5vw;
+  height:5%;
+  width:100%;
+  font-size: large;
   margin:auto;
 }
 .main img{
   width:100%;
-  height:100%;
-  object-fit: contain;
+  height:95%;
+  object-fit: fill;
 }
 /* shop styling*/
 .shop-container{
   display:grid;
-  grid-template-columns: 100vw;
-  grid-template-rows: 80vh 20vh;
+  grid-template-columns: 20vw 80vw;
+  grid-template-rows: 90vh;
   grid-template-areas:
-  "main" 
-  "collection";
+  "collection main";
 }
 .shop-main{
-  height:77vh;
-  width:96vw;
-  display:grid;
-  margin:auto;
+  min-height:100%;
+  min-width:80vw;
+  display:flex;
+  margin:1%;
   border-width:5px;
   border-color: black;
   border-style: solid;
   grid-area: main;
+  gap:20px;
   overflow: scroll;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 4fr;
+  flex-direction: column;
 }
 /*card styling*/
 .shoe-card{
-grid-area: auto;
-height: 50%;
-width: 50%;
+min-width: 320px;
+min-height: 400px;
+height: 100%;
+width: 75%;
 border-width: 2px;
 border-color: black;
 border-radius: 1em;
-margin: auto;
+margin:auto;
 box-shadow: 3px 3px 10px -3px black;
 display:flex;
 position:relative;
@@ -89,44 +170,46 @@ justify-content: space-around;
 }
 .shoe-card img{
   position:absolute;
-  width:90%;
-  height:80%;
+  max-width:100%;
+  max-height:85%;
   top:0;
   margin:auto;
   display: flex;
 }
 .shoe-card h3{
   position:absolute;
-  width:55%;
-  height:15%;
-  bottom:0;
-  left:0;
+  width:70%;
+  height:12%;
+  top:92%;
+  right:40%;
   margin:auto;
+  font-size: large;
 }
 .shoe-card button{
   position:absolute;
-  width:30%;
-  height:15%;
-  bottom:10px;
-  right:5px;
+  width:15%;
+  height:10%;
+  bottom:7px;
+  right:8%;
   margin:auto;
 }
 /* universal components*/
 .shoe-collection{
   grid-area: collection;
-  width:96vw;
+  width:92%;
+  height:100%;
   border-width:5px;
   border-color: black;
   border-style: solid;
   margin-bottom: 3px;
-  margin:1% 2%;
+  margin:4% 2%;
   position:relative;
 }
 .shoe-collection h3{
   position:absolute;
-  top:0px;
-  width: 30%;
-  left:35%;
+  top:2px;
+  width: 80%;
+  left:10%;
   margin-top: 0;
   border-width: 2px;
   border-color: black;

@@ -1,9 +1,9 @@
-import React,{useState} from "react";
+import React from "react";
 
-function Wallet(){
-const [exp,setExp]=useState(0)
+function Wallet({x,l}){
+
     return(
-        <h3>Exp:{exp}</h3>
+        <h3>Level:{l} Exp:{x}</h3>
     )
 }
 export default Wallet;

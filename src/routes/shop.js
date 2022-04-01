@@ -11,14 +11,16 @@ function Shop(){
         .then(data=>setShoes(data))
     },[]);
 const shoeCards = shoes.map((shoe)=>{
-    console.log(shoe);
 return(
     <ShoeCard key={shoe.id} shoe={shoe}/>
 )
 })
     return(
         <div className="shop-container">
-            <div className="shop-main">{shoeCards}</div>\
+            <div className="shop-main">
+                <h2>Shop Inventory</h2>
+                {shoeCards}
+            </div>
             <ShoeCollection/>
         </div>
     )
