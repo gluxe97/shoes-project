@@ -3,39 +3,119 @@
   "id":1,
   "name":"Air Force low",
   "image":{
-      "front": "placeholder",
-      "side": "placeholder"}
+      "front": "https://live.staticflickr.com/65535/51974561161_249fd32b13_b.jpg",
+      "side": "https://live.staticflickr.com/65535/51974845854_f2563399a6_c.jpg"}
   },
   {
   "id":2,
-  "name":"placeholder",
+  "name":"Air Max 96",
   "image":{
-      "front":"placeholder",
-      "side":"placeholder"
+      "front":"https://live.staticflickr.com/65535/51973554782_46cd4c18f7_b.jpg",
+      "side":"https://live.staticflickr.com/65535/51974637448_79d758c014_b.jpg"
       }
   },
   {
   "id":3,
-  "name":"placeholder",
+  "name":"Air Max 95",
   "image":{
-      "front":"placeholder",
-      "side":"placeholder"
+      "front":"https://live.staticflickr.com/65535/51974637468_846247e62e_b.jpg",
+      "side":"https://live.staticflickr.com/65535/51973554787_dbcb2d568d_b.jpg"
       }
   },
   {
   "id":4,
-  "name":"placeholder",
+  "name":"Air Max 90",
   "image":{
-      "front":"placeholder",
-      "side":"placeholder"
+      "front":"https://live.staticflickr.com/65535/51973554797_c1ff0c90f0_c.jpg",
+      "side":"https://live.staticflickr.com/65535/51974637473_cc6cb902e4_c.jpg"
       }
   },
   {
   "id":5,
-  "name":"placeholder",
+  "name":"Air Max 97",
   "image":{
-      "front":"placeholder",
-      "side":"placeholder"
+      "front":"https://live.staticflickr.com/65535/51973554772_0f11e80144_c.jpg",
+      "side":"https://live.staticflickr.com/65535/51974637443_ce47ccda0f_c.jpg"
+      }
+  },
+  {
+  "id":6,
+  "name":"Air Max Plus",
+  "image":{
+      "front":"https://live.staticflickr.com/65535/51975121875_76e0bcb815_b.jpg",
+      "side":"https://live.staticflickr.com/65535/51974561116_ea898f67d7_b.jpg"
+      }
+  },
+  {
+  "id":7,
+  "name":"Air Presto",
+  "image":{
+      "front":"https://live.staticflickr.com/65535/51975121860_53a79e83fc_c.jpg",
+      "side":"https://live.staticflickr.com/65535/51975121855_983b54fe0b_c.jpg"
+      }
+  },
+  {
+  "id":8,
+  "name":"Blazer 77",
+  "image":{
+      "front":"https://live.staticflickr.com/65535/51974561091_fbc9b1f58c_b.jpg",
+      "side":"https://live.staticflickr.com/65535/51974561086_b0facbb299_b.jpg"
+      }
+  },
+  {
+  "id":9,
+  "name":"Air Zoom Type",
+  "image":{
+      "front":"https://live.staticflickr.com/65535/51974637433_12bd4fca44_b.jpg",
+      "side":"https://live.staticflickr.com/65535/51974561101_908183d93a_b.jpg"
+      }
+  },
+  {
+  "id":10,
+  "name":"Air Jordan 5",
+  "image":{
+      "front":"https://live.staticflickr.com/65535/51974561061_7af98804e1_c.jpg",
+      "side":"https://live.staticflickr.com/65535/51975121810_edb40f65aa_c.jpg"
+      }
+  },
+  {
+  "id":11,
+  "name":"Air Jordan 1",
+  "image":{
+      "front":"https://live.staticflickr.com/65535/51974637413_d8efedacb5_c.jpg",
+      "side":"https://live.staticflickr.com/65535/51975121830_553649397c_c.jpg"
+      }
+  },
+  {
+  "id":12,
+  "name":"Burrow Slipper",
+  "image":{
+      "front":"https://live.staticflickr.com/65535/51974845834_bf88e1cff2_b.jpg",
+      "side":"https://live.staticflickr.com/65535/51975121835_f6944601a6_b.jpg"
+      }
+  },
+  {
+  "id":13,
+  "name":"Air Jordan 14",
+  "image":{
+      "front":"https://live.staticflickr.com/65535/51974845819_fb9325b1c4_b.jpg",
+      "side":"https://live.staticflickr.com/65535/51973554717_0e1ff7c171_b.jpg"
+      }
+  },
+  {
+  "id":14,
+  "name":"Space Hippie",
+  "image":{
+      "front":"https://live.staticflickr.com/65535/51974637388_f72ce6e1c7_b.jpg",
+      "side":"https://live.staticflickr.com/65535/51974561041_ff742bdebe_b.jpg"
+      }
+  },
+  {
+  "id":15,
+  "name":"Vapor Max",
+  "image":{
+      "front":"https://live.staticflickr.com/65535/51973554707_93bea8da29_b.jpg",
+      "side":"https://live.staticflickr.com/65535/51974561026_817218cdbb_b.jpg"
       }
   }
 ]}

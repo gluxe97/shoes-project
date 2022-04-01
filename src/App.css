@@ -54,15 +54,15 @@
 /* shop styling*/
 .shop-container{
   display:grid;
-  grid-template-columns: 5vw 90vw 5vw;
+  grid-template-columns: 100vw;
   grid-template-rows: 80vh 20vh;
   grid-template-areas:
-  "lside main rside" 
-  "lside collection rside";
+  "main" 
+  "collection";
 }
 .shop-main{
   height:77vh;
-  width:80vw;
+  width:96vw;
   display:grid;
   margin:auto;
   border-width:5px;
@@ -70,23 +70,67 @@
   border-style: solid;
   grid-area: main;
   overflow: scroll;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 4fr;
 }
+/*card styling*/
 .shoe-card{
 grid-area: auto;
-height: 48%;
-width: 48%;
+height: 50%;
+width: 50%;
+border-width: 2px;
+border-color: black;
+border-radius: 1em;
 margin: auto;
 box-shadow: 3px 3px 10px -3px black;
+display:flex;
+position:relative;
+justify-content: space-around;
+}
+.shoe-card img{
+  position:absolute;
+  width:90%;
+  height:80%;
+  top:0;
+  margin:auto;
+  display: flex;
+}
+.shoe-card h3{
+  position:absolute;
+  width:55%;
+  height:15%;
+  bottom:0;
+  left:0;
+  margin:auto;
+}
+.shoe-card button{
+  position:absolute;
+  width:30%;
+  height:15%;
+  bottom:10px;
+  right:5px;
+  margin:auto;
 }
 /* universal components*/
 .shoe-collection{
   grid-area: collection;
-  border-width:3px;
+  width:96vw;
+  border-width:5px;
   border-color: black;
   border-style: solid;
   margin-bottom: 3px;
+  margin:1% 2%;
+  position:relative;
+}
+.shoe-collection h3{
+  position:absolute;
+  top:0px;
+  width: 30%;
+  left:35%;
+  margin-top: 0;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
 }
 .error{
   margin:auto;
