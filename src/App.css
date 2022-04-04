@@ -75,6 +75,36 @@ box-shadow: 3px 3px 10px -3px black;
 display:flex;
 flex-direction: column;
 }
+.correct{
+  min-width: 100px;
+  min-height: 100px;
+  height: 75%;
+  width: 90%;
+  padding:1%;
+  background-color: #1c4f23;
+  border-color: black;
+  color:white;
+  border-radius: 1em;
+  margin:auto;
+  box-shadow: 3px 3px 10px -3px black;
+  display:flex;
+  flex-direction: column;
+}
+.incorrect{
+  min-width: 100px;
+  min-height: 100px;
+  height: 75%;
+  width: 90%;
+  padding:1%;
+  background-color: #a82727;
+  color:white;
+  border-color: black;
+  border-radius: 1em;
+  margin:auto;
+  box-shadow: 3px 3px 10px -3px black;
+  display:flex;
+  flex-direction: column;
+}
 .card-title{
 display:flex;
 position: relative;
