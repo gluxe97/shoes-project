@@ -54,9 +54,10 @@ function TriviaForm({update,answer,setAnswerText,answerText}){
         const newOption={"answer":answer,
         "isCorrect":isCorrect}
         const optionsData = [...options,newOption]
-        if(optionNum<4){
+        if(optionNum<3){
             setOptionNum(optionNum + 1);
             setOptions(optionsData);
+            setAnswerText("");
         }
         else{setOptionNum(0)
             setSubAnswer(false);}

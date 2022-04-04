@@ -124,7 +124,7 @@
   "questions": [
     {
       "id": 1,
-      "question": "Who Designed the Jordan 1 ?",
+      "question": "Who Designed the Jordan 3 ?",
       "options": [
         {
           "answer": "Michael Jordan",
@@ -187,6 +187,46 @@
         }
       ],
       "id": 3
+    },
+    {
+      "question": "What was the original price of the Jordan 1 in 1985?",
+      "options": [
+        {
+          "answer": "40$",
+          "isCorrect": false
+        },
+        {
+          "answer": "65$",
+          "isCorrect": true
+        },
+        {
+          "answer": "80$",
+          "isCorrect": false
+        },
+        {
+          "answer": "100$",
+          "isCorrect": false
+        }
+      ],
+      "id": 4
+    },
+    {
+      "question": "what movie did the nike air mag appear in ?",
+      "options": [
+        {
+          "answer": "space jam",
+          "isCorrect": false
+        },
+        {
+          "answer": "back to the future part 2",
+          "isCorrect": true
+        },
+        {
+          "answer": "tarzan",
+          "isCorrect": false
+        }
+      ],
+      "id": 5
     }
   ],
   "experience": [
@@ -194,6 +234,32 @@
       "id": 1,
       "points": 0,
       "level": 1
+    }
+  ],
+  "shoe-collection": [
+    {
+      "id": 1,
+      "name": "Air Force low",
+      "image": {
+        "front": "https://live.staticflickr.com/65535/51974561161_249fd32b13_b.jpg",
+        "side": "https://live.staticflickr.com/65535/51974845854_f2563399a6_c.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Air Max 96",
+      "image": {
+        "front": "https://live.staticflickr.com/65535/51973554782_46cd4c18f7_b.jpg",
+        "side": "https://live.staticflickr.com/65535/51974637448_79d758c014_b.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Air Max 95",
+      "image": {
+        "front": "https://live.staticflickr.com/65535/51974637468_846247e62e_b.jpg",
+        "side": "https://live.staticflickr.com/65535/51973554787_dbcb2d568d_b.jpg"
+      }
     }
   ]
 }

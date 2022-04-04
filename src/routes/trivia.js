@@ -43,7 +43,7 @@ function updateAnswer(input){
     setAnswer(input);
 }
 function handleNext(){
-    if(currentQuestion<4){
+    if(currentQuestion<questions.length){
     setCurrentQuestion(currentQuestion+1)
     setDisplayCorrect(false);
     setDisplayIncorrect(false);
